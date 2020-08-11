@@ -55,10 +55,10 @@ for (let i=0;i<paragraphs.length;i++){
   if (paragraphs[i]==' '){
     spaceCounter++;
   }
-  if (paragraphs[i]===' ' 
-      && paragraphs[i+1]==='e' 
-      && paragraphs[i+2]==='t' 
-      && paragraphs[i+3]=== ' '
+  if (paragraphs[i]===' ' && 
+      paragraphs[i+1]==='e' && 
+      paragraphs[i+2]==='t' && 
+      paragraphs[i+3]=== ' '
   ){
     etCounter++;
   }
